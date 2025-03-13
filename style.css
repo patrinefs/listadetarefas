@@ -1,0 +1,100 @@
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #ff5c8d, #9b59b6); /* Degradê em tons de rosa e roxo */
+}
+
+/* Estilo do container */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #9b59b6;
+}
+
+/* Título */
+h1 {
+    color: #6a1b9a; /* Cor roxa */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Parágrafo */
+p {
+    color: #6a1b9a; /* Cor roxa */
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #f06292; /* Rosa claro */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #f48fb1;
+}
+
+button:active {
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7); /* Sombreado pulsante */
+    transform: scale(1.1);
+}
+
+/* Estilo da lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #fff;
+    color: #6a1b9a;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para o campo de entrada */
+input[type="text"] {
+    padding: 12px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #9b59b6;
+    border-radius: 8px;
+    font-size: 1.1em;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #f06292; /* Rosa claro */
+    box-shadow: inset 0 2px 6px rgba(255, 105, 180, 0.3);
+}
